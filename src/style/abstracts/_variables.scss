@@ -8,16 +8,21 @@ $media-md: 992px; //62em
 $media-sm: 768px; //48em
 $media-xs: 544px; //34em
 
+.container {
+    max-width: 1800px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: auto 0;
+}
 
 //fonts
 // $font-1: ;
 // $font-2: ;
 
 //colors
-
-
-//weights
-$light:300;
-$regular:400;
-$semi-bold:600;
-$bold:700;
+$bg-color:#f4e9e2;
+$font-color:black;
+$border:#928c88 // $light:300;
+// $regular:400;
+// $semi-bold:600;
+// $bold:700;

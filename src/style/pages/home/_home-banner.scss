@@ -1,61 +1,75 @@
 .home-banner {
-    width: 100%;
-    height: auto;
-    margin: 0;
-    padding: 0;
+    height: 100vh;
+    background-color: $bg-color;
+}
 
-    .heading-restuarant {
-        h2 {
-            font-size: 7vw;
-            font-family: 'Xanh Mono', monospace;
-            line-height: 1;
-            letter-spacing: 1.1rem;
-            font-weight: 300;
+.home-banner__full-width {
+    width: 100%;
+    display: flex;
+
+    .column {
+        width: 100%;
+        height: 100%;
+    }
+
+    .small-size {
+        width: 25%;
+        border-right: 1px solid $border;
+        height: 100vh;
+    }
+
+    .paragraph__first-column {
+        position: relative;
+        top: 80%;
+        padding: 20px;
+
+        p {
+            font-family: Eloquia Text, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+            font-size: 20px;
+            line-height: 30px;
             text-align: center;
-            padding: 50;
-            z-index: 1;
+            margin: 0;
+
         }
     }
 
-    p.para-styling-left {
-        opacity: 1;
-        transform: none;
-        line-height: 1.5;
-        font-size: 18px;
-        font-family: 'Xanh Mono', monospace;
-        color: #2e2f4a;
-        margin: 18px;
-        margin-right: 50px;
+    .large-size {
+        width: 50%;
+        border-right: 1px solid $border;
+        height: 100vh;
+
     }
 
-    .large-imge {
+    .banner__header {
+        max-width: 70rem;
+        position: absolute;
+        left: 19%;
+        bottom: 23%;
+
+        h1 {
+            font-size: 150px;
+            line-height: 120px;
+            font-family: Eloquia Text, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+            font-weight: 400;
+            text-transform: uppercase;
+            text-align: center;
+            margin: 0;
+            width: 100%;
+        }
+    }
+
+    .border-none {
+        border: none;
+    }
+
+    .image__small-column {
+        width: 430px;
+        position: absolute;
+        bottom: 25px;
 
         img {
+            border-radius: 20px;
             width: 100%;
-            height: 70vh;
-            top: -10vh;
-            left: 0;
-            margin-left: 100px;
-            position: relative;
-            margin-top: $margin-top;
-        }
-
-
-
-    }
-
-    .bttn-style position {
-        margin-top: 0;
-        position: relative;
-        margin-top: -40px;
-
-        .btn {
-
-            z-index: 1;
-            position: relative;
-            text-align: center;
-            margin-bottom: 12px;
-            margin-top: 0;
         }
     }
 }
