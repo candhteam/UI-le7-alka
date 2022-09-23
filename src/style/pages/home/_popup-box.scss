@@ -1,0 +1,124 @@
+.popup-section {
+    width: 100%;
+    height: 100vh;
+    background-color: $font-color;
+}
+
+.pop-up__wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.wrapper__first-column {
+    display: block;
+    padding-top: 32px;
+    width: 60%;
+
+    .pop-up__link-list {
+        ul {
+            list-style: none;
+
+            li {
+                a {
+                    font-size: 130px;
+                    line-height: 100px;
+                    color: white;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    position: absolute;
+                    transform: translateX(0) translateY(0);
+                    transition: transform 1s ease-in-out;
+
+                    &:hover {
+
+                        transform: translateX(20px);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.contact__details--flex {
+    display: flex;
+    gap: 50px;
+}
+
+.contact__social-media--block {
+    ul {
+        list-style: none;
+
+        li {
+
+
+            a {
+                text-decoration: none;
+                color: white;
+                font-size: 14px;
+                line-height: 15px;
+                ont-family: Roboto Mono, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+                text-transform: uppercase;
+
+            }
+
+
+        }
+    }
+
+    .opacity {
+        color: $border;
+    }
+}
+
+.wrapper__second-column {
+    width: 22.5%;
+
+
+}
+
+.flex-end {
+    // position: absolute;
+    margin-top: 40%;
+}
+
+.wrapper__third-column {
+    padding: 20px;
+    width: 22.5%;
+}
+
+h5 {
+    font-size: 14px;
+    line-height: 15px;
+    color: white;
+    padding-bottom: 200px;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 14px;
+    line-height: 15px;
+    color: $border;
+    text-transform: uppercase;
+}
+
+.header--3rd-column {
+    h3 {
+        font-size: 35px;
+        line-height: 40px;
+        font-family: Eloquia Text, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+}
+
+.image--3rd-column {
+
+
+    img {
+        width: 100%;
+        border-radius: 15px;
+        height: 383px;
+        object-fit: cover;
+    }
+}

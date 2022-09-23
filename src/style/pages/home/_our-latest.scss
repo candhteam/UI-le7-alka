@@ -1,0 +1,126 @@
+.our-latest {
+    height: auto;
+    width: 100%;
+    margin: auto;
+
+}
+
+.our-latest__wrapper {}
+
+.our-latest__header {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+
+    h2 {
+        font-size: 100px;
+        line-height: 95px;
+        font-family: Eloquia Text, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+        font-weight: 400;
+        margin: 0;
+    }
+}
+
+.carosel-slider {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.our-latest__slider-wrapper {
+    display: -webkit-box;
+    position: relative;
+    overflow: hidden;
+    gap: 30px;
+    // display: inline-block;
+}
+
+.slider__card--top-border {
+    border-top: 1px solid $border;
+    max-width: 702px;
+    // position: absolute;
+}
+
+.paragraph__our-latest {
+    font-size: 16px;
+    line-height: 20px;
+    font-family: Roboto Mono, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    color: #808080;
+    margin: 0;
+    padding-top: 16px;
+    padding-bottom: 40px;
+}
+
+.purpose-header--h3 {
+    font-size: 35px;
+    line-height: 40px;
+    color: $font-color;
+    font-family: Eloquia Text, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-weight: 400;
+    margin: 0;
+}
+
+.color {
+    color: $font-color;
+}
+
+.first-card__image {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 80px;
+
+    img {
+        width: 100%;
+        border-radius: 15px;
+        height: 618px;
+    }
+}
+
+.second-card__image {
+
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+
+    .height-image {
+        height: 282px !important;
+        width: 100%;
+        border-radius: 15px;
+        object-fit: cover;
+    }
+}
+
+.inner__box--border-top {
+    border-top: 1px solid $border;
+    max-width: 702px;
+    width: 100%;
+}
+
+.image--radius {
+
+    display: flex;
+    justify-content: end;
+    width: 100%;
+
+    img {
+        max-width: 166px;
+        width: 100%;
+        border-radius: 50%;
+    }
+}
+
+.padding-bottom {
+    padding-bottom: 20px !important;
+}
+
+.third__image {
+    width: 100%;
+    // padding-top: 20px;
+    padding-bottom: 80px;
+
+    img {
+        width: 100%;
+        border-radius: 15px;
+        height: 461px;
+    }
+}
